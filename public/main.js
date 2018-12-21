@@ -18,8 +18,8 @@ const main = () => {
 
     var dots = {
       nb: 300,
-      distance: 40,
-      d_radius: 100,
+      distance: 50,
+      d_radius: 150,
       array: []
     }
 

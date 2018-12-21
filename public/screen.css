@@ -21,6 +21,7 @@ canvas {
 h1 {
   text-align: center;
   color: white;
+  text-shadow: 1.75px 1.75px #108fff;
   font-family: billabong;
   font-size: 4rem;
   font-weight: 300;
@@ -28,6 +29,26 @@ h1 {
   border-radius: 42%;
   margin: 20px 175px 20px 175px;
 }
+
+.inputBox {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border-radius: 5px;
+  outline-color: #108fff;
+}
+
+button {
+  border-radius: 5px;
+  margin-left: 5px;
+  outline: none;
+}
+
+.fa-map-pin {
+}
+
 .map {
   display: flex;
   justify-content: center;
