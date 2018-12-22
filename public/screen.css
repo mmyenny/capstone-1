@@ -18,6 +18,12 @@ canvas {
   src: url(./assets/Billabong.ttf);
 }
 
+main.mainPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 h1 {
   text-align: center;
   color: white;
@@ -49,14 +55,12 @@ button {
 .fa-map-pin {
 }
 
-.map {
-  display: flex;
-  justify-content: center;
-}
-img {
+img.map {
   width: 95%;
   height: 95%;
 }
+
+/* popUp-page */
 
 .pinPopUp {
   display: flex;
@@ -64,6 +68,7 @@ img {
   background-color: #eceae4;
   width: 13rem;
   text-align: center;
+  border-radius: 5px;
 }
 
 p {
