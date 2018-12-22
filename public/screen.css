@@ -57,3 +57,15 @@ img {
   width: 95%;
   height: 95%;
 }
+
+.pinPopUp {
+  display: flex;
+  flex-direction: column;
+  background-color: #eceae4;
+  width: 13rem;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
