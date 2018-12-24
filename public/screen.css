@@ -27,7 +27,7 @@ main.mainPage {
 h1 {
   text-align: center;
   color: white;
-  text-shadow: 1.75px 1.75px #108fff;
+  text-shadow: 1.75px 1.75px #003f56;
   font-family: billabong;
   font-size: 4rem;
   font-weight: 300;
@@ -39,11 +39,12 @@ h1 {
 .inputBox {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 input {
   border-radius: 5px;
-  outline-color: #108fff;
+  outline-color: #003f56;
 }
 
 button {
@@ -58,6 +59,9 @@ button {
 img.map {
   width: 95%;
   height: 95%;
+  border: 1px solid white;
+
+  border-radius: 5px;
 }
 
 /* popUp-page */
@@ -73,4 +77,19 @@ img.map {
 
 p {
   margin: 0;
+}
+
+/* photo gallery page */
+
+main.photoGallery {
+  background: white;
+  border-radius: 5px;
+}
+
+div.photosGalleryImages {
+}
+
+img.photoGalleryImage {
+  max-height: 300px;
+  max-width: 225px;
 }
