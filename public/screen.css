@@ -64,6 +64,14 @@ img.map {
   border-radius: 5px;
 }
 
+/* sign in page */
+
+main.signIn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 /* popUp-page */
 
 .pinPopUp {
@@ -84,12 +92,20 @@ p {
 main.photoGallery {
   background: white;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 div.photosGalleryImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin: 2px;
 }
 
 img.photoGalleryImage {
-  max-height: 300px;
-  max-width: 225px;
+  max-height: 150px;
+  max-width: 125px;
 }
