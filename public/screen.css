@@ -72,7 +72,32 @@ main.signIn {
   flex-direction: column;
 }
 
-/* popUp-page */
+.signIn h4 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+button.googleSignIn {
+  color: white;
+  background-color: #3a88ed;
+  border: none;
+  font-size: 15px;
+  height: 2rem;
+  width: 13rem;
+  margin-bottom: 5px;
+}
+
+button.facebookSignIn {
+  color: white;
+  background-color: #395a94;
+  border: none;
+  font-size: 15px;
+  height: 2rem;
+  width: 13rem;
+}
+
+/* pin-popUp page */
 
 .pinPopUp {
   display: flex;
@@ -81,10 +106,18 @@ main.signIn {
   width: 13rem;
   text-align: center;
   border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 p {
   margin: 0;
+}
+
+img.photoAlbumPreview {
+  max-height: 100px;
+  max-width: 100px;
+  align-items: center;
 }
 
 /* photo gallery page */
@@ -99,7 +132,7 @@ main.photoGallery {
 div.photosGalleryImages {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 
   margin: 2px;
