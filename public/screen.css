@@ -101,14 +101,14 @@ div.login {
   background-color: rgba(1, 1, 78, 0.6);
   border: 1.25px solid rgba(255, 255, 255, 0.6);
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .login img {
   width: 70px;
   border-radius: 50%;
   margin-top: -45px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .login input {
@@ -120,19 +120,36 @@ div.login {
   margin-top: 10px;
   margin-left: 0;
   width: 75px;
+  cursor: pointer;
 }
 
 div.logInOptions {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   width: 100%;
 }
 
-.logInOptions p {
+.logInOptions label {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
   padding-top: 10px;
+  cursor: pointer;
+}
+
+label.logInOptions {
+  display: flex;
+  align-items: center;
+}
+
+.logInOptions a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  padding-top: 10px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 div.loginOr {
@@ -159,6 +176,7 @@ button.googleLogIn {
   height: 25px;
   width: 200px;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 
 button.facebookLogIn {
@@ -168,6 +186,7 @@ button.facebookLogIn {
   font-size: 15px;
   height: 25px;
   width: 200px;
+  cursor: pointer;
 }
 
 /* Let's get started page */
